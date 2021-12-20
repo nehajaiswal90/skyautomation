@@ -5,11 +5,16 @@
 
 
 ### pre-requisite
-    1) NPM installation
-    2) cypress installtion
+    1) npm installation
+    2) nvm installation
+
+please make sure to use node.js v17.3.0
 
 ### steps
-
-    node_modules/.bin/cypress run
+    1) clone repo: git clone https://github.com/nehajaiswal90/skyautomation.git
+    2) cd ${pathtoproject}/
+    3) npm install cypress --save-dev
+    4) node_modules/.bin/cypress run -> to run all feature file in headless
+    5) node_modules/.bin/cypress open -> to open cypress portal and run tests with browser 
 
 
