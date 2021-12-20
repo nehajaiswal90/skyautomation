@@ -1,0 +1,9 @@
+{
+    "testFiles": "**/*.feature",
+        "env": {
+        "url": "https://www.sky.com/"
+      },
+      "defaultCommandTimeout":8000,
+      "chromeWebSecurity": false
+
+  }
